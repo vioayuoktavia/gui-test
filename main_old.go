@@ -15,6 +15,7 @@ import (
 )
 
 func main() {
+	fmt.Println(data)
 	a := app.New()
 	w := a.NewWindow("TWO Automation Monitoring")
 	list_of_log := []string{""}

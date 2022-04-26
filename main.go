@@ -1,6 +1,8 @@
 package main
 
 import (
+	"fmt"
+
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/app"
 	"fyne.io/fyne/v2/container"
@@ -14,6 +16,7 @@ const preferenceCurrentLayout = "currentLayout"
 var topWindow fyne.Window
 
 func main() {
+	fmt.Println(data.menuLayouts)
 	apps := app.NewWithID("two.demo")
 	windows := apps.NewWindow("TWO Demo")
 
