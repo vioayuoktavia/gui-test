@@ -1,4 +1,4 @@
-module github.com/scraly/learning-go-by-examples/go-gopher-desktop
+module github.com/vioayuoktavia/gui-test
 
 go 1.18
 
